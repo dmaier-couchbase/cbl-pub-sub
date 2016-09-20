@@ -5,11 +5,19 @@
   "databases": {
     "sync_gateway": {
     "users" : {
-	"sync_user" : { "password": "pwd" }
+        "sync_user" : { "password": "pwd" }
     },
     "server": "http://localhost:8091",
     "bucket": "sync_gateway",
-    "sync": `function(doc) {channel(doc.channels);}`
+    "sync": `function(doc) {
+
+                if (doc.type == 'subscription') {
+
+                    access( doc.user, doc.channels);
+                }
+
+                channel(doc.channels);
+            }`
     }
   }
 }
