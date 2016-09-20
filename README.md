@@ -50,4 +50,4 @@ Afterwards, publishing just means to add a document to the local database which 
 
 ## Subscriber
 
-The subscriber uses a local CouchbaseLite database 'messages-in'. This database has a pull replication from SyncGateway set up. The used synchronization channel is again 'messages'. Before a subscriber can receive messages, it needs to subsribe to the channel by sending a subscription document for this channel. A ChangeListener was attached to the database in order to vizualize the received messages better.
+The subscriber uses a local CouchbaseLite database 'messages-in'. This database has a pull replication from SyncGateway set up. The used synchronization channel is again 'messages'. Before a subscriber can receive messages, it needs to subscribe to the channel by sending a subscription document for this channel. A ChangeListener was attached to the database in order to vizualize the received messages better.
