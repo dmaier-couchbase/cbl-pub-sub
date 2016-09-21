@@ -2,7 +2,7 @@
 
 A publish subsribe Java example with Couchbase Sync Gateway
 
-<img src="https://github.com/dmaier-couchbase/cbl-pub-sub/raw/master/pub-sub-architecture.png" width="300">
+<img src="https://github.com/dmaier-couchbase/cbl-pub-sub/raw/master/pub-sub-arch.png" width="300">
 
 ## Configuration
 
