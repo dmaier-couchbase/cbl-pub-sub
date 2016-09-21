@@ -2,6 +2,9 @@
 
 A publish subsribe Java example with Couchbase Sync Gateway
 
+![alt tag](https://github.com/dmaier-couchbase/cbl-pub-sub/raw/master/pub-sub-architecture.png)
+
+
 ## Configuration
 
 In order to allow users to subscribe to specific channels (a subscription means to be able to read/write from/to a channel), we are using the following sync function:
