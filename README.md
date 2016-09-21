@@ -71,3 +71,7 @@ Subscribing without caching would be access the changes feed for specific channe
 ```
 GET /{db}/_changes
 ```
+
+## Demo
+
+* https://youtu.be/mqD8X1RUBOk
